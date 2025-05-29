@@ -1,18 +1,4 @@
-// data.js
-
-const journalists = [
-    { id: 1, name: "Alice Johnson", email: "alice.johnson@newsco.com" },
-    { id: 2, name: "Bob Martinez", email: "bob.martinez@newsco.com" },
-    { id: 3, name: "Clara Lee", email: "clara.lee@newsco.com" }
-];
-
-const categories = [
-    { id: 1, name: "Politics" },
-    { id: 2, name: "Technology" },
-    { id: 3, name: "Sports" }
-];
-
-const articles = [
+export const articles = [
     {
         id: 1,
         title: "Election Results 2025",
@@ -49,9 +35,3 @@ const articles = [
         categoryId: 3
     }
 ];
-
-export {
-    articles,
-    journalists,
-    categories
-};
